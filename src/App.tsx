@@ -1,10 +1,8 @@
 import React from 'react';
-import { Welcome } from './components';
+import { Welcome } from '@components';
 
 function App() {
-  return (
-    <Welcome />
-  );
+  return <Welcome />;
 }
 
 export default App;
