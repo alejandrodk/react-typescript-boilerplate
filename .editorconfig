@@ -1,0 +1,4 @@
+[*.{ts, js, tsx, jsx}]
+end_of_line = lf
+[{.editorconfig, husky.config.js, ./husky/*}]
+end_of_line = crlf

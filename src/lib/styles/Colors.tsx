@@ -1,0 +1,17 @@
+export const Palette = {
+  RED_BRAND: '#fa5742',
+  GRAY_DARK: '#535252',
+  GRAY_MEDIUM: '#707070',
+  GRAY_REGULAR: '#939393',
+  GRAY_SOFT: '#f5f2f2',
+  PURPLE_REGULAR: '#d810e8',
+  GREEN_VIVID: '#22db4a',
+  GREEN_REGULAR: '#35B72C',
+  GREEN_SOFT: '#78bf25',
+  GREEN_LIGHT: '#def7d0',
+  BLUE_REGULAR: '#2587bf',
+  BLUE_LIGHT: '#d0f7f2',
+  ORANGERED: '#fc6c29',
+  WHITE: '#FFF',
+  BLACK: '#000',
+};
