@@ -1,8 +1,8 @@
 import React from 'react';
-import { Welcome } from '@components';
+import { MainRouter } from '@routers';
 
 function App() {
-  return <Welcome />;
+  return <MainRouter />;
 }
 
 export default App;

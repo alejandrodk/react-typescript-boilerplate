@@ -2,7 +2,16 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "@assets": ["./src/assets"],
       "@components": ["./src/components"],
+      "@data": ["./src/data"],
+      "@controllers": ["./src/lib/controllers"],
+      "@enums": ["./src/lib/enums"],
+      "@helpers": ["./src/lib/helpers"],
+      "@interfaces": ["./src/lib/interfaces"],
+      "@styles": ["./src/lib/styles"],
+      "@routers": ["./src/routers"],
+      "@views": ["./src/views"]
     }
   }
 }
