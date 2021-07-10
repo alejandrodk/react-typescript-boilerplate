@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+. "$(dirname "$0")/common.sh"
+
+# dont execute husky if env var CI is present
+[ -n "$CI" ] && exit 0
+
+yarn test --bail --watchAll=false && exit 0
