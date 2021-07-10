@@ -1,0 +1,11 @@
+FROM node:fermium-alpine AS build
+ARG APP_ROOT="/usr/src/app"
+WORKDIR $APP_ROOT
+
+COPY . $APP_ROOT
+RUN yarn \
+    && apk --update add --no-cache dumb-init
+
+EXPOSE 3000
+
+CMD ["dumb-init", "yarn", "start:debug"]

@@ -1,0 +1,15 @@
+*
+
+!.babelrc
+!.env*
+!jest*
+!__test__/
+!public/
+!src/
+!scripts/
+!yarn-offline-mirror/
+!package.json
+!yarn.lock
+!.yarnrc
+!tsconfig*
+!config-overrides.js
